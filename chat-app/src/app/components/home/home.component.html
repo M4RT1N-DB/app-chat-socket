@@ -1,0 +1,22 @@
+<form autocomplete="off" class="form" [formGroup]="forma" (ngSubmit)="guardar()" *ngIf="!loading">
+  <!-- <div class="cnt"> -->
+
+    <div class="title">
+      <p>Enter your DNI</p>
+    </div>
+
+    <div class="info">
+      <p>We will use your DNI to pull your data and generate a temporary profile.</p>
+    </div>
+
+    <div class="dni">
+      <input #dniInput type="text" placeholder="12345678" formControlName="dni" maxlength="8">
+      <small *ngIf="validValue">D.N.I. no valido, caracteres minimos 8</small>
+    </div>
+    <div class="send">
+      <button type="submit" [ngStyle]="{'background-color':color}">Join room</button>
+    </div>
+  <!-- </div> -->
+</form>
+
+<app-loading *ngIf="loading"></app-loading>

@@ -1,0 +1,124 @@
+/* .container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+background-color: yellowgreen;
+} 
+
+.input-container {
+    width: 100%;
+    position: relative;
+
+    background-color: violet;
+}
+
+.send {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+  }
+
+  .input {
+    outline: none;
+    border: none;
+    display: grid;
+    width: 100%;
+    padding: 0 6rem 0 3rem;
+    height: 46px;
+    background-color: #3F3D3E;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+  }
+  .add {
+    color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    display: flex;
+  }
+
+  .add-icon {
+    display: flex;
+    padding: 0 1rem;
+  } */
+
+.container {
+  min-width: 100%;
+  min-height: 100%;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.add {
+  background-color: #3f3d3e;
+
+  height: 100%;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add > i {
+  color: white;
+  display: flex;
+}
+
+.input {
+  background-color: #3f3d3e;
+
+  height: 100%;
+  width: 86%;
+  display: grid;
+
+  outline: none;
+  border: none;
+  padding: 0 6rem 0 3rem;
+  font-size: 16px;
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.send {
+  background-color: #3f3d3e;
+  width: 10%;
+  height: 100%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+.send:hover {
+  background-color: #5f5d5e;
+}
+.add:hover {
+  background-color: #5f5d5e;
+  cursor: pointer;
+}

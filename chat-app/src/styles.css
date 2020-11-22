@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Fibra One W00 Light";
+  src: url("assets/Fonts/5628347/a9cdb8ca-5521-41f4-8e98-c729c6008c60.woff2")
+      format("woff2"),
+    url("assets/Fonts/5628347/da936ebd-3917-4c04-8031-079049be38d8.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Fibra One W00 Regular";
+  src: url("assets/Fonts/5628355/21a14455-2343-44cb-96a8-12c5721d70d3.woff2")
+      format("woff2"),
+    url("assets/Fonts/5628355/207a701d-e6ff-4dd6-9100-8dcf48e03386.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Fibra One W00 Bold";
+  src: url("assets/Fonts/5628371/4e809f51-b1a7-49a6-b646-b53722298e00.woff2")
+      format("woff2"),
+    url("assets/Fonts/5628371/579333ba-d070-4c15-b9a0-878e625067f9.woff")
+      format("woff");
+}
+
+/* * {
+  font-family: "Fibra One W00 Regular";
+} */
+html,body{
+  background-color: rgba(37, 35, 41, 1);
+  height: 100%;
+  font-family: "Fibra One W00 Regular";
+}
+body{
+  margin: 0;
+}

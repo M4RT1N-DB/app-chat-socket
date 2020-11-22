@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="info">
+        <div class="icn" [ngStyle]="{'background-color':infoUser.color}"></div>
+        <div class="name">{{infoUser.name}}</div>
+        <div class="position">Developer</div>
+    </div>
+
+
+    <div class="hide">
+        <div class="contacts">
+
+        <div class="colX">
+            <div class="icnContact" [ngStyle]="{'background-color':'red'}">
+            </div>
+            <div class="dataContact">
+                <div class="gnr">General</div>
+                <div class="name">Roberto</div>
+                <div class="msg">Today i will continue...</div>
+            </div>
+        </div>
+
+        <div class="colX" *ngFor="let data of messages">
+                <div class="icnContact" [ngStyle]="{'background-color':data.color}" > 
+            </div>
+            <div class="dataContact">
+                <div class="name" >{{data.name}}</div>
+                <div class="msg">{{data.message}}</div>
+            </div>
+        </div>
+
+    </div>
+    </div> 
+     
+</div> 

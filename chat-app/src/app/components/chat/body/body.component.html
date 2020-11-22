@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="hide">
+        <div class="colX" *ngFor="let data of dataDummy">
+            <div class="img" [ngStyle]="{'background-color':data.color}">
+            </div>
+            <div class="info">
+                <div class="title" [ngStyle]="{'color':data.color}">{{data.name}}</div>
+                <div class="msg">{{data.msg}}</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
